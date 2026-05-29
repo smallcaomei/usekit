@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="./assets/banner.png" alt="usekit — The missing React hooks toolkit" width="100%" />
+
 # ⚡ usekit
 
 **The missing React hooks toolkit.**
@@ -8,11 +10,12 @@
 
 [![npm version](https://img.shields.io/npm/v/usekit.svg?style=flat-square&color=6d5efc)](https://www.npmjs.com/package/usekit)
 [![bundle size](https://img.shields.io/badge/min%2Bgzip-~5kB-00c2a8?style=flat-square)](https://bundlephobia.com/package/usekit)
+[![CI](https://img.shields.io/github/actions/workflow/status/smallcaomei/usekit/ci.yml?style=flat-square&label=CI)](https://github.com/smallcaomei/usekit/actions)
 [![types](https://img.shields.io/badge/types-included-3178c6?style=flat-square)](#)
 [![license](https://img.shields.io/badge/license-MIT-black?style=flat-square)](./LICENSE)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](./CONTRIBUTING.md)
 
-English · [简体中文](./README.zh-CN.md)
+**[🚀 Live Demo](https://smallcaomei.github.io/usekit/)** · English · [简体中文](./README.zh-CN.md)
 
 </div>
 
@@ -56,7 +59,7 @@ function SearchBox() {
 
 ## The hooks
 
-> 👉 **[Live, interactive playground →](./demo)** — every demo is powered by the real library.
+> 👉 **[Live, interactive playground →](https://smallcaomei.github.io/usekit/)** — every demo is powered by the real library.
 
 ### State
 

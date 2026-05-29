@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="./assets/banner.png" alt="usekit — 你一直缺的 React Hooks 工具库" width="100%" />
+
 # ⚡ usekit
 
 **你一直缺的 React Hooks 工具库。**
@@ -8,11 +10,12 @@
 
 [![npm version](https://img.shields.io/npm/v/usekit.svg?style=flat-square&color=6d5efc)](https://www.npmjs.com/package/usekit)
 [![bundle size](https://img.shields.io/badge/min%2Bgzip-~5kB-00c2a8?style=flat-square)](https://bundlephobia.com/package/usekit)
+[![CI](https://img.shields.io/github/actions/workflow/status/smallcaomei/usekit/ci.yml?style=flat-square&label=CI)](https://github.com/smallcaomei/usekit/actions)
 [![types](https://img.shields.io/badge/types-included-3178c6?style=flat-square)](#)
 [![license](https://img.shields.io/badge/license-MIT-black?style=flat-square)](./LICENSE)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](./CONTRIBUTING.md)
 
-[English](./README.md) · 简体中文
+**[🚀 在线演示](https://smallcaomei.github.io/usekit/)** · [English](./README.md) · 简体中文
 
 </div>
 
@@ -56,7 +59,7 @@ function SearchBox() {
 
 ## Hooks 一览
 
-> 👉 **[实时交互演示 →](./demo)** —— 每个演示都由真实的库驱动。
+> 👉 **[实时交互演示 →](https://smallcaomei.github.io/usekit/)** —— 每个演示都由真实的库驱动。
 
 ### 状态
 

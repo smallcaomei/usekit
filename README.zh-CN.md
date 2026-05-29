@@ -8,8 +8,8 @@
 
 32 个面向真实业务、类型完备、SSR 安全的 React Hooks —— **零依赖**，体积极小。
 
-[![npm version](https://img.shields.io/npm/v/usekit.svg?style=flat-square&color=6d5efc)](https://www.npmjs.com/package/usekit)
-[![bundle size](https://img.shields.io/badge/min%2Bgzip-~5kB-00c2a8?style=flat-square)](https://bundlephobia.com/package/usekit)
+[![npm version](https://img.shields.io/npm/v/@smallcaomei/usekit.svg?style=flat-square&color=6d5efc)](https://www.npmjs.com/package/@smallcaomei/usekit)
+[![bundle size](https://img.shields.io/badge/min%2Bgzip-~5kB-00c2a8?style=flat-square)](https://bundlephobia.com/package/@smallcaomei/usekit)
 [![CI](https://img.shields.io/github/actions/workflow/status/smallcaomei/usekit/ci.yml?style=flat-square&label=CI)](https://github.com/smallcaomei/usekit/actions)
 [![types](https://img.shields.io/badge/types-included-3178c6?style=flat-square)](#)
 [![license](https://img.shields.io/badge/license-MIT-black?style=flat-square)](./LICENSE)
@@ -33,17 +33,17 @@
 ## 安装
 
 ```bash
-npm install usekit
+npm install @smallcaomei/usekit
 # 或
-pnpm add usekit
+pnpm add @smallcaomei/usekit
 # 或
-yarn add usekit
+yarn add @smallcaomei/usekit
 ```
 
 ## 快速上手
 
 ```tsx
-import { useDebounce, useLocalStorage, useToggle } from "usekit";
+import { useDebounce, useLocalStorage, useToggle } from "@smallcaomei/usekit";
 
 function SearchBox() {
   const [query, setQuery] = useLocalStorage("last-query", "");
@@ -134,7 +134,7 @@ function SearchBox() {
 <summary><b>用 <code>useKeyPress</code> 实现命令面板快捷键</b></summary>
 
 ```tsx
-import { useKeyPress } from "usekit";
+import { useKeyPress } from "@smallcaomei/usekit";
 
 function App() {
   const [open, setOpen] = useState(false);
@@ -153,7 +153,7 @@ function App() {
 
 ```tsx
 import { useRef, useState } from "react";
-import { useClickOutside } from "usekit";
+import { useClickOutside } from "@smallcaomei/usekit";
 
 function Dropdown() {
   const [open, setOpen] = useState(false);
@@ -169,7 +169,7 @@ function Dropdown() {
 <summary><b>用 <code>useIntersectionObserver</code> 懒加载图片</b></summary>
 
 ```tsx
-import { useIntersectionObserver } from "usekit";
+import { useIntersectionObserver } from "@smallcaomei/usekit";
 
 function LazyImage({ src, alt }: { src: string; alt: string }) {
   const { ref, isIntersecting } = useIntersectionObserver({

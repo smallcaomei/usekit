@@ -9,7 +9,9 @@ export default defineConfig({
   base: "./",
   resolve: {
     alias: {
-      usekit: fileURLToPath(new URL("../src/index.ts", import.meta.url)),
+      "@smallcaomei/usekit": fileURLToPath(
+        new URL("../src/index.ts", import.meta.url),
+      ),
     },
   },
 });

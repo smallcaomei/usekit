@@ -16,7 +16,7 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     "paths": {
-      "usekit": ["../src/index.ts"]
+      "@smallcaomei/usekit": ["../src/index.ts"]
     }
   },
   "include": ["src"]

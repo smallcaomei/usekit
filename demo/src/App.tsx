@@ -1,4 +1,4 @@
-import { useDarkMode, useLocalStorage, useDocumentTitle } from "usekit";
+import { useDarkMode, useLocalStorage, useDocumentTitle } from "@smallcaomei/usekit";
 import { STRINGS, type Lang } from "./i18n";
 import { DEMOS } from "./demos";
 import { Reveal } from "./Reveal";
@@ -70,7 +70,7 @@ export function App() {
             <div style={{ marginTop: 26 }}>
               <span className="install">
                 <span className="prompt mono">$</span>
-                <span className="mono">npm install usekit</span>
+                <span className="mono">npm install @smallcaomei/usekit</span>
               </span>
             </div>
           </div>

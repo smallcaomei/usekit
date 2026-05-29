@@ -1,5 +1,5 @@
 {
-  "name": "usekit",
+  "name": "@smallcaomei/usekit",
   "version": "1.0.0",
   "description": "The missing React hooks toolkit — a collection of essential, type-safe, SSR-friendly hooks. Zero dependencies, fully tree-shakeable.",
   "type": "module",
@@ -41,6 +41,9 @@
     "LICENSE"
   ],
   "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "engines": {
     "node": ">=18"
   },

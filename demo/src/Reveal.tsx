@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import { useIntersectionObserver } from "usekit";
+import { useIntersectionObserver } from "@smallcaomei/usekit";
 
 export interface RevealProps {
   children: ReactNode;

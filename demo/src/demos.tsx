@@ -15,7 +15,7 @@ import {
   useElementSize,
   useClickOutside,
   useInterval,
-} from "usekit";
+} from "@smallcaomei/usekit";
 import type { Lang } from "./i18n";
 
 export interface DemoDef {
@@ -107,7 +107,7 @@ function LocalStorageDemo() {
 
 function CopyDemo() {
   const { copy, copied } = useCopyToClipboard();
-  const cmd = "npm i usekit";
+  const cmd = "npm i @smallcaomei/usekit";
   return (
     <div className="demo-stage">
       <div className="row" style={{ justifyContent: "space-between" }}>

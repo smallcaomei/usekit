@@ -1,0 +1,75 @@
+{
+  "name": "usekit",
+  "version": "1.0.0",
+  "description": "The missing React hooks toolkit — a collection of essential, type-safe, SSR-friendly hooks. Zero dependencies, fully tree-shakeable.",
+  "type": "module",
+  "license": "MIT",
+  "author": "usekit contributors",
+  "homepage": "https://github.com/usekit/usekit#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/usekit/usekit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/usekit/usekit/issues"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "react-hooks",
+    "typescript",
+    "ssr",
+    "tree-shakeable",
+    "use-local-storage",
+    "use-debounce",
+    "use-media-query"
+  ],
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "README.zh-CN.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "typecheck": "tsc --noEmit",
+    "lint": "tsc --noEmit",
+    "demo": "npm --prefix demo run dev",
+    "demo:build": "npm --prefix demo run build",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^16.1.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitest/coverage-v8": "^2.1.8",
+    "jsdom": "^25.0.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}

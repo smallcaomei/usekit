@@ -5,13 +5,13 @@
   "type": "module",
   "license": "MIT",
   "author": "usekit contributors",
-  "homepage": "https://github.com/usekit/usekit#readme",
+  "homepage": "https://smallcaomei.github.io/usekit/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/usekit/usekit.git"
+    "url": "git+https://github.com/smallcaomei/usekit.git"
   },
   "bugs": {
-    "url": "https://github.com/usekit/usekit/issues"
+    "url": "https://github.com/smallcaomei/usekit/issues"
   },
   "keywords": [
     "react",
